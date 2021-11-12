@@ -33,7 +33,7 @@ public class Homework3 {
 
         int indexOfBody = sentence3.indexOf( "body");
         System.out.println("\nIndex of 'body' in " + sentence3 +"' is : " + indexOfBody);
-        
+
     }
 
 }
