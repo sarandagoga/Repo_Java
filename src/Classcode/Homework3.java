@@ -32,7 +32,16 @@ public class Homework3 {
         System.out.println("\nDoes '" + sentence3 + "' contains " + checkFor1 + "' (ignoring cases)? : " + itContains1);
 
         int indexOfBody = sentence3.indexOf( "body");
-        System.out.println("\nIndex of 'body' in " + sentence3 +"' is : " + indexOfBody);
+        System.out.println("\nIndex of 'body' in " + sentence3 + "' is : " + indexOfBody);
+
+
+        String sentence4 = "make America great again";
+        String[] sen3Split = sentence4.toUpperCase().split(" ");
+        String abbreviation = "";
+        for(int i = 0; i < sen3Split.length; i++){
+            abbreviation += sen3Split[i].charAt(0);
+        }
+        System.out.println(abbreviation);
 
     }
 
